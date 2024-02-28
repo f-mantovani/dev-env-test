@@ -25,6 +25,7 @@
         "eslint-plugin-import": "^2.29.1",
         "eslint-plugin-n": "^16.6.2",
         "eslint-plugin-promise": "^6.1.1",
+        "git-commit-msg-linter": "^5.0.6",
         "globstar": "^1.0.0",
         "pactum": "^3.6.0",
         "prettier": "^3.2.5",
@@ -37,7 +38,10 @@
         "tsx": "^4.7.1"
     },
     "lint-staged": {
-        "*.ts": ["eslint --cache --fix", "prettier --write"],
+        "*.ts": [
+            "eslint --cache --fix",
+            "prettier --write"
+        ],
         "*.{css,md}": "prettier --write"
     }
 }
