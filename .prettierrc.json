@@ -1,0 +1,12 @@
+{
+    "arrowParens": "always",
+    "endOfLine": "lf",
+    "tabWidth": 4,
+    "embeddedLanguageFormatting": "auto",
+    "printWidth": 80,
+    "trailingComma": "es5",
+    "quoteProps": "as-needed",
+    "useTabs": false,
+    "singleQuote": true,
+    "semi": false
+}
