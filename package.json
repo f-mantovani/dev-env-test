@@ -7,7 +7,7 @@
     "scripts": {
         "dev": "tsx watch src/server.ts",
         "start": "tsx src/server.ts",
-        "test": "globstar -- tsx --experimental-test-coverage --test \"test/**/*.test.ts\"",
+        "test": "globstar -- tsx --test --experimental-test-coverage \"test/**/*.test.ts\"",
         "test:debug": "globstar -- tsx --test \"test/**/*.test.ts\" && tsx watch src/server.ts --inspect",
         "prepare": "husky install"
     },
